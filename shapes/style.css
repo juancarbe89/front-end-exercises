@@ -1,0 +1,23 @@
+body {
+  background-color: #1571BD;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 40px 20px;
+}
+#square, #circle {
+  width: 100px;
+  height: 100px;
+  background: #3EFEFF;
+}
+#circle {
+  border-radius: 50%
+}
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #3EFEFF;
+}
